@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidtest0.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="92dp">
+
+        <EditText
+            android:id="@+id/editText_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Enter your message"
+            android:textSize="26dp"
+            android:padding="4dp" />
+            <!-- android:hint is making your text color a bit lighter (so grey) -->
+            <!--android:inputType is what is displayed
+            dp is density independent pixels (basically # of pixels)
+            wrap_content wraps the view into the text/image inside the view
+            match_parent is obviously matches that of the parent view
+            android:padding is making the view bigger so that your text has some padding
+            android: layout_margin is putting a gap between the parent view and your actual current view
+
+            -->
+
+        <TextView
+            android:id="@+id/textView_name_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="Display message here"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+<!--This is how you do comments in XML-->
+<!--
+TextView creates text box, usually it's noninteractive
+Editbox creates a text input
+ImageView inserts an image
+Button creates a button
+Chronometer inserts a timer
+
+LinearLayout: display is a single row or column
+RelativeLayout: views placed relative to each other
+FrameLayout: a view that contains a single child view w.e. that means
+ScrollView: a view that lets you scroll all the content inside it
+ConstraintLayout: iono
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
