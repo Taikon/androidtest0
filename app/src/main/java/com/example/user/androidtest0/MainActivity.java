@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //R.layout is allows you to identify content in the res folder.
         //setContentView lets you set those content in the res folder into different locations in your RelativeView/LinearView/etcView.
-
-        private void TestUpload{
+        public void Dog{
             int i = 1+1;
+            int ii = i+3;
         }
     }
 }
